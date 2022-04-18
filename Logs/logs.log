@@ -1,0 +1,32 @@
+2022-03-26 12:55:26,049 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 12:55:26,225 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 12:55:26,402 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 12:57:16,334 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 12:57:16,375 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 12:57:16,399 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:00:36,943 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:00:36,985 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:00:37,082 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:02:43,995 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:02:44,040 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:02:44,075 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:07:23,711 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:07:23,759 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:07:23,784 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:08:08,995 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:18:56,373 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:28:03,521 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:28:31,839 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:28:31,903 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:30:10,415 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:30:10,437 ERROR [main] LoggingAspects:19 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:31:08,794 ERROR [main] LoggingAspects:20 - Incorrect result size: expected 1, actual 0
+2022-03-26 13:31:08,813 ERROR [main] LoggingAspects:20 - Incorrect result size: expected 1, actual 0
+2022-03-26 14:40:48,450 ERROR [main] LoggingAspects:20 - PreparedStatementCallback; SQL [INSERT INTO movie(movieId,movieName,language,releasedIn, revenueInDollars) VALUES(?,?,?,?)]; Parameter index out of range (5 > number of parameters, which is 4).; nested exception is java.sql.SQLException: Parameter index out of range (5 > number of parameters, which is 4).
+2022-03-26 14:42:19,964 ERROR [main] LoggingAspects:20 - Movie already available for given movie id.
+2022-03-26 14:42:36,060 ERROR [main] LoggingAspects:19 - Movie already available for given movie id.
+2022-03-26 14:42:53,857 ERROR [main] LoggingAspects:19 - Movie already available for given movie id.
+2022-03-26 14:44:15,451 ERROR [main] LoggingAspects:19 - Movie already available for given movie id.
+2022-03-26 14:45:04,230 ERROR [main] LoggingAspects:19 - Movie already available for given movie id.
+2022-03-26 14:45:04,560 ERROR [main] LoggingAspects:19 - PreparedStatementCallback; bad SQL grammar [delete movie where movieId=?]; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where movieId='M1006'' at line 1
+2022-03-26 14:46:38,054 ERROR [main] LoggingAspects:19 - Movie already available for given movie id.
